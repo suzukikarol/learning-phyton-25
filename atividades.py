@@ -29,3 +29,25 @@ print('O valor arredondado de pi é: {:.2f}'.format(pi))
 
 # Utilizando a função round()
 print('O valor arredondado de pi é:', round(pi, 2))
+
+
+# MODULO 2
+# match expressão:
+    # case padrão_1:
+        # Código a ser executado se expressão corresponder a padrão_1
+    # case padrão_2:
+        # Código a ser executado se expressão corresponder a padrão_2
+    # ... outros casos ...
+    # case _:
+        # Código a ser executado se nenhum dos padrões anteriores corresponder. Isso é útil para tratar casos não específicos.
+
+def classificar_musica(genero_favorito, genero_musica):
+    if genero_favorito == genero_musica:
+        return 'recomendada'
+    elif genero_favorito == 'Pop' or genero_favorito == 'Rock':
+        return 'neutra'
+    else:
+        return 'não recomendada'
+
+resultado = classificar_musica('Rock', 'Pop')
+print(resultado)
