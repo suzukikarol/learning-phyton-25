@@ -1,2 +1,2 @@
-# learning-phyton-25
+# learning-python-25
 Repositório criado para salvar aprendizados da linguagem phyton
