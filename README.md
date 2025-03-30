@@ -3,3 +3,6 @@ Repositório criado para salvar aprendizados da linguagem phyton
 
 # módulo 1 
 manipulando strings no python
+
+# módulo 2
+módulos e funções
